@@ -1,0 +1,159 @@
+.btn-active{
+    background: #32027d;
+    color: #ccc;
+}
+
+.img-avata-layer:hover{
+    display: none;
+    cursor: pointer;
+}
+
+.img-avata-layer::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.btn-control{
+    cursor: pointer;
+}
+
+.container-content{
+    display: none;
+}
+
+.current{
+    display: block;
+}
+
+.active{
+    display: block;
+}
+
+/* .hide{
+    display: block;
+} */
+
+.active h2:nth-child(1){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+}
+
+.active div div:nth-child(1){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.05s;
+}
+
+.active div div:nth-child(2){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.07s;
+}
+
+.active div div:nth-child(3){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.09s;
+}
+
+.active div div:nth-child(4){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.11s;
+}
+
+.active div div:nth-child(5){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.13s;
+}
+
+.active div div:nth-child(6){
+    animation: textShow 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.15s;
+}
+
+.active .container-img img{
+    animation: imgShow 1.2s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.3s;
+}
+
+.hide h2:nth-child(1){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+}
+
+.hide div div:nth-child(1){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.05s;
+}
+
+.hide div div:nth-child(2){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.07s;
+}
+
+.hide div div:nth-child(3){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.09s;
+}
+
+.hide div div:nth-child(4){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.11s;
+}
+
+.hide div div:nth-child(5){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.13s;
+}
+
+.hide div div:nth-child(6){
+    animation: textHide 0.7s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.15s;
+}
+
+.hide .container-img img{
+    animation: textHide 1.2s cubic-bezier(0, 0.52, 0.58, 1.01) 1 forwards;
+    animation-delay: 0.3s;
+}
+
+
+
+@keyframes textShow{
+    0% {
+        opacity: 0;
+        transform: translate(300px, 0);
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(0, 0);
+
+    }
+}
+
+@keyframes textHide{
+    0%{
+        opacity: 1;
+        transform: translate(0, 0);
+
+    }
+    70%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-300px, 0);
+        display: none;
+    }
+}
+
+@keyframes imgShow{
+    0% {
+        opacity: 0;
+        transform: translate(300px, 0);
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(0, 0);
+
+    }
+}
+
