@@ -10,17 +10,19 @@
     <title>Document</title>
 </head>
 <body class="font-mono">
-    <div class="h-[100vh] bg-gradient-to-l from-black-131 to-purple-663 flex items-center">
-        <div class="h-5/6 w-full">
-            <!-- Title -->
-            <div class="h-1/12 flex items-center">
-                <h1 class="m-auto text-3xl font-bold text-white uppercase">Le Nguyen Tan Thi</h1>
-            </div>
-            <!-- Container Item -->
-            <div id="persional" class="active container-content overflow-hidden relative w-5/6 bg-[#ccc] h-5/6 bg-opacity-30 m-auto rounded px-6">
+    <div class="h-[100vh] bg-gradient-to-l from-black-131 to-purple-663 flex items-center  min-w-[360px] min-h-[700px]">
+        <div class="absolute w-60 h-60 rounded-full top-0 -left-24 bg-[#F568D0] blur-2xl opacity-40"></div>
+        <!--  -->
+        <div class="h-fit w-full">
                 <!-- Title -->
-                <div class="w-full  pt-3 pb-5">
-                    <h2 class="text-center text-white text-xl font-semibold">Personal information</h2>
+                <div class="h-1/12 flex items-center">
+                    <h1 class="m-auto text-3xl font-bold text-white mb-4 uppercase">Le Nguyen Tan Thi</h1>
+                </div>
+            <!-- Container Item -->
+            <div id="persional" class="active container-content overflow-hidden relative w-5/6 bg-[#ccc] h-fit bg-opacity-30 m-auto py-6 rounded px-6 min-w-[300px]">
+                <!-- Title -->
+                <div class="w-full pb-3">
+                    <h2 class="text-center text-white text-xl font-semibold">Personal Information</h2>
                 </div>
                 <!-- Content -->
                 <div class="container-item w-full h-fit">
@@ -51,7 +53,7 @@
                     <!-- Item -->
                     <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-2 rounded-full items-center">
                         <img class="w-10" src="./data/icon/target/target-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">Ton Duc Thang University</span>
+                        <span class="flex items-center m-auto">TDT University</span>
                     </div>
 
                     <!-- Item -->
@@ -65,55 +67,67 @@
 
                 <!-- Image -->
                 <div class="container-img">
-                    <img class="absolute bottom-0 left-2 blur-md h-56" src="./data/images/image1.png" alt="">
-                    <img class="absolute bottom-0 left-0 h-56" src="./data/images/image1.png" alt="">
+                    <img class="absolute bottom-0 left-[100%] blur-md h-56" src="./data/images/image1.png" alt="">
+                    <img class="absolute bottom-0 left-[100%] h-56" src="./data/images/image1.png" alt="">
 
                     
                 </div>
             </div>
 
 
-            <div id="social" class="container-content overflow-hidden relative w-5/6 bg-[#ccc] h-5/6 bg-opacity-30 m-auto rounded px-6">
+            <div id="social" class="container-content overflow-hidden relative w-5/6 bg-[#ccc] h-fit bg-opacity-30 m-auto py-6 rounded px-6 min-w-[300px]">
                 <!-- Title -->
-                <div class="w-full  pt-3 pb-5">
-                    <h2 class="text-center text-white text-xl font-semibold">Social network</h2>
+                <div class="w-full pb-3">
+                    <h2 class="text-center text-white text-xl font-semibold">Social Network</h2>
                 </div>
                 <!-- Content -->
                 <div class="container-item w-full h-fit">
                     <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-6 rounded-full items-center">
-                        <img class="w-10" src="./data/icon/boy/boy-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">AAAAAA</span>
+                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex w-full"  target="_blank" href="https://www.facebook.com/lntt.1806">
+                            <img class="h-9 w-9 mr-5" src="./data/icon/social/facebook.gif" alt="">
+                            <span class="flex items-center mr-auto">Facebook</span>
+                        </a>
                     </div>
                     
                     <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-6 rounded-full items-center">
-                        <img class="w-10" src="./data/icon/call-ringing/phone-ringing-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">BBBBBBBBBBB</span>
+                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex w-full" target="_blank" href="https://www.instagram.com/tannthi.de/">
+                            <img class="h-10 w-10 mr-5" src="./data/icon/social/instagram.gif" alt="">
+                            <span class="flex items-center mr-auto">Instagram</span>
+                        </a>
                     </div>
 
                     <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-6 rounded-full items-center">
-                        <img class="w-10" src="./data/icon/mail/mail-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">CCCCCCCCCCC</span>
+                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex w-full" target="_blank" href="https://open.spotify.com/user/315k4ifnnnaypmdhyeyu2ouopqna?si=06e7f636d1d04f57">
+                            <img class="h-10 w-10 mr-5" src="./data/icon/social/spotify.gif" alt="">
+                            <span class="flex items-center mr-auto">Spotify</span>
+                        </a>
                     </div>
 
                     <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-6 rounded-full items-center">
-                        <img class="w-10" src="./data/icon/calender/calender-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">DDDDDD</span>
+                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex h-full" target="_blank" href="https://github.com/tanthidev">
+                            <img class="h-10 w-10 mr-5" src="./data/icon/social/github.gif" alt="">
+                            <span class="flex items-center mr-auto">Github</span>
+                        </a>
                     </div>
 
                     <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-2 rounded-full items-center">
-                        <img class="w-10" src="./data/icon/target/target-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">FFFFFFFFFFFF</span>
+                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex w-full" target="_blank" href="https://pin.it/6kKP3l7">
+                            <img class="h-10 w-10 mr-5" src="./data/icon/social/pinterest.gif" alt="">
+                            <span class="flex items-center mr-auto">Pinterest</span>
+                        </a>
                     </div>
 
-                    <!-- Item -->
-                    <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] py-2 pl-4 mt-3 pr-6 rounded-full items-center">
-                        <img class="w-10" src="./data/icon//map-pin/map-pin-front-gradient.png" alt="">
-                        <span class="flex items-center m-auto">GGGGGGGGGGGg</span>
+                     <!-- Item -->
+                     <div class="flex w-full h-10 bg-opacity-60 bg-[#ccc] pl-4 mt-3 pr-6 rounded-full items-center">
+                        <a class="flex w-full" target="_blank" href="https://twitter.com/tanthiide">
+                            <img class="h-10 w-10 mr-5" src="./data/icon/social/twitter.gif" alt="">
+                            <span class="flex items-center mr-auto">Twitter</span>
+                        </a>
                     </div>
 
 
@@ -121,8 +135,8 @@
 
                 <!-- Image -->
                 <div class="container-img">
-                    <img class="absolute bottom-0 left-2 blur-md h-56" src="./data/images/image1.png" alt="">
-                    <img class="absolute bottom-0 left-0 h-56" src="./data/images/image1.png" alt="">
+                    <img class="absolute bottom-0 left-[100%] blur-md h-56" src="./data/images/image2.png" alt="">
+                    <img class="absolute bottom-0 left-[100%] h-56" src="./data/images/image2.png" alt="">
 
                     
                 </div>
@@ -134,11 +148,12 @@
 
             <!-- Controller -->
             <div class=" flex items-center mt-10">
-                <ul class="m-auto flex bg-[#ccc] rounded-md w-5/6 grid-cols-4 gap-2">
-                    <li id="btn-persional" class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center btn-active"><i class="fa-regular fa-address-card"></i></li>
-                    <li id="btn-social" class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="fa-regular fa-pen-to-square"></i></li>
-                    <li class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="fa-sharp fa-solid fa-share-nodes"></i></li>
-                    <li class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="fa-solid fa-circle-info"></i></li>
+                <ul class="relative z-30 m-auto flex bg-[#ccc] rounded-md w-5/6 grid-cols-4 gap-2">
+                    <li id="btn-persional" class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center btn-active"><i class="relative -z-10 fa-regular fa-address-card"></i></li>
+                    <li id="btn-social" class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="relative -z-10 fa-regular fa-pen-to-square"></i></li>
+                    <li class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="relative -z-10 fa-sharp fa-solid fa-share-nodes"></i></li>
+                    <li class="btn-control text-3xl text-[#444] py-2 rounded-md w-3/12 text-center"><i class="relative -z-10 fa-solid fa-circle-info"></i></li>
+                    <div id="action" class="-z-20 rounded-md"></div>
                 </ul>
             </div>
         </div>
